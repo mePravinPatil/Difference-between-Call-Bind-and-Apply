@@ -1,8 +1,7 @@
 # Difference-between-Call-Bind-and-Apply
 Call( ): 
-	1. The call() method invokes a function with a given 'this' value and arguments provided one by one. This means that we can call any function, and explicitly specify what 'this' should reference within the calling function.
-	
-	2. call() calls the function with (this or custom object) as the first parameter then function parameters if exist are passed one by one and returns the value of execution.
+1. The call() method invokes a function with a given 'this' value and arguments provided one by one. This means that we can call any function, and explicitly specify what 'this' should reference within the calling function.
+2. call() calls the function with (this or custom object) as the first parameter then function parameters if exist are passed one by one and returns the value of execution.
 	
 	Example : 
 		//Demo with javascript .call()
