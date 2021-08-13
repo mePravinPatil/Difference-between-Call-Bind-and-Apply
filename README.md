@@ -1,7 +1,7 @@
 # Difference-between-Call-Bind-and-Apply
 Call( ): 
-1. The call() method invokes a function with a given 'this' value and arguments provided one by one. This means that we can call any function, and explicitly specify what 'this' should reference within the calling function.
-2. call() calls the function with (this or custom object) as the first parameter then function parameters if exist are passed one by one and returns the value of execution.
+	1. The call() method invokes a function with a given 'this' value and arguments provided one by one. This means that we can call any function, and explicitly specify what 'this' should reference within the calling function.
+	2. call() calls the function with (this or custom object) as the first parameter then function parameters if exist are passed one by one and returns the value of execution.
 	
 	Example : 
 		//Demo with javascript .call()
@@ -15,8 +15,8 @@ Call( ):
 Apply( ): 
 	1. Invokes the function and allows you to pass in arguments as an array.
 	2. apply() is the same as call() except that it takes the parameters as any array
+	
 	Example : 
-		
 		//Demo with javascript .apply()
 			var obj = {name:"John"};
 			var greeting = function(a,b,c){
@@ -32,8 +32,8 @@ Apply( ):
 Bind(): 
 	1. Returns a new function, allowing you to pass in an array and any number of arguments.
 	2.  it creates a new function with a given this value, and returns that function without executing it.
+	
 	Example :
-		
 		//Use .bind() javascript
 			var obj = {name:"John"};
 			var greeting = function(a,b,c){
